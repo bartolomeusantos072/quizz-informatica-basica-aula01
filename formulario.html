@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <hr><br>
+    <form action="" method="POST">
+        <label for="texto">Input de texto:</label>
+        <input id="texto" type="text" placeholder="texto"  name="nome"><br>
+        <label for="idade">INput do idade:</label>
+        <input type="number" id="idade"  placeholder="numero"  name="idade"><br>
+        <label for="senha">senha</label>
+        <input type="password" id="senha" name="senha"><br>
+        <label for="email">email</label>
+        <input type="email"name="email" id="email"><br>
+        <label for="date">Data nascimento</label>
+        <input type="date" name="data" id="data"><br>
+        <label for="hora">hora</label>
+        <input type="time" id="time" name="time"><br>
+        <label for="file">Escolher arquivo</label>
+        <input type="file" id="file" name="file"><br>
+        <label for="url">site</label>
+        <input type="url" id="url" name="url"><br>
+        <label for="color">color</label>
+        <input type="color" id="color" name="color"><br>
+        <label for="range">escala</label>
+        <input type="range" id="range" name="range" min="1" max="5"><br>
+        <input type="reset" id="reset" name="limpar" value="limpar">
+        <hr>
+        <input type="checkbox" id="option1" name="option1">
+        <label for="option1">option1</label><br>
+         <input type="checkbox" id="option2" name="option2">
+        <label for="option2">option2</label><br>
+        <input type="checkbox" id="option3" name="option3">
+        <label for="option3">option3</label><br>
+        <input type="checkbox" id="option4" name="option4">
+        <label for="option3">option4</label><br>
+        <hr>
+        <label>Selecione o serviço</label>
+        <select name="select"  id="select">
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="receita">Receita</option>
+            <option value="despesa">Despesa</option>
+            <option value="transferencia">Transferencia</option>
+        </select>
+        <hr>
+        <input type="submit" value="submit"><br>
+        <textarea name="bio" id="bio" rows="6"></textarea>
+    </form>
+</body>
+</html>
