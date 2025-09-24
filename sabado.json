@@ -54,6 +54,38 @@
     "reforço": "O comando 'cd\\Intel' acessa o diretório Intel localizado na raiz do drive atual."
   },
   {
+    "question": "Para que serve o comando “Format C: /s” no MS-DOS?",
+    "answers": [
+      { "option": "A Formata o disco na unidade escolhida e grava o sistema operacional MS-DOS após a formatação.", "correct": true },
+      { "option": "B Formata o disco na unidade escolhida com mais rapidez.", "correct": false },
+      { "option": "C Formata o disco na unidade escolhida e instala o Windows automaticamente.", "correct": false },
+      { "option": "D Formata apenas os diretórios do sistema, preservando os arquivos pessoais.", "correct": false }
+    ],
+    "reforço": "O comando 'format C: /s' formata a unidade C: e copia os arquivos essenciais do sistema MS-DOS para torná-lo inicializável."
+  },
+  {
+    "question": "O arquivo em lote (batch) teste.bat, localizado na pasta “c:\\tmp”, possui o seguinte conteúdo: @echo off rename %1 %2. Sabendo-se que o usuário está na pasta “c:\\tmp” e que essa pasta possui o arquivo “x.txt”, qual será o resultado obtido ao entrar com o comando: teste.bat x.txt y.txt?",
+    "answers": [
+      { "option": "A O arquivo denominado “%1” será renomeado para “%2”.", "correct": false },
+      { "option": "B O arquivo denominado “x.txt” será renomeado para “y.txt”.", "correct": true },
+      { "option": "C O conteúdo dos dois arquivos “x.txt” e “y.txt” será “rename”.", "correct": false },
+      { "option": "D Os dois arquivos “x.txt” e “y.txt” serão impressos devido ao comando @echo off.", "correct": false },
+      { "option": "E Nenhum processamento será realizado devido ao comando @echo off.", "correct": false }
+    ],
+    "reforço": "O comando 'rename %1 %2' renomeia o primeiro parâmetro (x.txt) para o segundo (y.txt)."
+  },
+  {
+    "question": "Qual comando é utilizado para se fazer uma formatação rápida do drive C: em modo MS-DOS?",
+    "answers": [
+      { "option": "A Format C:", "correct": false },
+      { "option": "B Format C: /a", "correct": false },
+      { "option": "C Format C: /q", "correct": true },
+      { "option": "D Deltree C:\\", "correct": false },
+      { "option": "E Del C:\\*.*", "correct": false }
+    ],
+    "reforço": "A opção /q no comando FORMAT realiza uma formatação rápida da unidade especificada."
+  },
+  {
     "question": "Sobre comandos MS‐DOS, analise as afirmativas a seguir.<br><br>I. Os comandos CDDIR e RMDIR são utilizados, respectivamente, para criar e remover diretórios.<br>II. O comando TREE é utilizado para exibir graficamente a árvore de diretórios a partir do diretório‐raiz.<br>III. Os comandos CLS e CD são utilizados respectivamente para limpar as informações do prompt de comando e mudar o diretório corrente para outro a partir da pasta atual.<br><br>Está(ão) correta(s) apenas a(s) afirmativa(s):",
     "answers": [
       { "option": "I.", "correct": false },

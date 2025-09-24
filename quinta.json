@@ -151,5 +151,60 @@
         { "option": "Formata o dispositivo, mas força uma desmontagem primeiro, se necessário.", "correct": false }
     ],
     "reforço": "A opção '/U' do comando 'format' realiza uma formatação incondicional, ou seja, formata o disco independente da condição anterior."
-}
+},
+  {
+    "question": "Para fechar uma janela do Prompt do MS-DOS aberta no Windows 98 o usuário deve digitar na linha de comando do prompt o comando:",
+    "answers": [
+      { "option": "A bye", "correct": false },
+      { "option": "B exit", "correct": true },
+      { "option": "C halt", "correct": false },
+      { "option": "D kill", "correct": false },
+      { "option": "E quit", "correct": false }
+    ],
+    "reforço": "O comando 'exit' encerra a sessão atual do prompt de comando."
+  },
+  {
+    "question": "Os comandos MD, CD e RD no MS-DOS têm, respectivamente, as seguintes funções:",
+    "answers": [
+      { "option": "A mudar o diretório atual, criar diretório e deletar diretório.", "correct": false },
+      { "option": "B deletar diretório, criar diretório e mudar o diretório atual.", "correct": false },
+      { "option": "C criar diretório, mudar o diretório atual e deletar diretório.", "correct": true },
+      { "option": "D criar diretório, deletar diretório e mudar o diretório atual.", "correct": false },
+      { "option": "E mudar o diretório atual, deletar diretório e criar diretório.", "correct": false }
+    ],
+    "reforço": "MD cria diretórios, CD muda o diretório atual e RD remove diretórios."
+  },
+  {
+    "question": "Assinale a opção que apresenta apenas comandos MS-DOS.",
+    "answers": [
+      { "option": "A PATH, MOVE, PUT e CLEAR", "correct": false },
+      { "option": "B LESS, EQUAL, COMP e SUM", "correct": false },
+      { "option": "C READ, INSERT, DIR e MORE", "correct": false },
+      { "option": "D CHMOD,RM, MODE e LS", "correct": false },
+      { "option": "E ATTRIB, CLS, TYPE e FDISK", "correct": true }
+    ],
+    "reforço": "Os comandos ATTRIB, CLS, TYPE e FDISK são nativos do MS-DOS."
+  },
+  {
+    "question": "Sobre o MS-DOS, assinale a alternativa correta:",
+    "answers": [
+      { "option": "A O comando “Deltree” serve para excluir uma pasta com todos os arquivos e subpastas dentro da pasta especificada. A opção /y faz com que a operação seja executada sem o pedido de confirmação.", "correct": true },
+      { "option": "B O MS-DOS deixou de ser necessário a partir do surgimento do Windows 3.1.", "correct": false },
+      { "option": "C O comando “format a: /u /s” serve para formatar um disquete. A opção /u é para formatação rápida e a opção /s é para copiar os arquivos do sistema operacional para o disquete.", "correct": false },
+      { "option": "D A linha de comando “Attrib /r /h /s data.txt” serve para alterar os atributos do arquivo data.txt. As opções /r /h e /s definem os atributos do arquivo como somente de leitura, oculto e de sistema, respectivamente.", "correct": false },
+      { "option": "E Os comandos CHKDSK, MEM e DOSKEY, servem respectivamente para: verificar um disco, exibir a quantidade de memória do sistema e por último, configurar o teclado.", "correct": false }
+    ],
+    "reforço": "A alternativa A está correta: DELTREE /y exclui uma pasta e todo o seu conteúdo sem pedir confirmação."
+  },
+  {
+    "question": "No sistema operacional MS-DOS, para retornar ao diretório raiz, utiliza-se o comando:",
+    "answers": [
+      { "option": "A MD", "correct": false },
+      { "option": "B CD\\", "correct": true },
+      { "option": "C EXIT", "correct": false },
+      { "option": "D EDIT", "correct": false },
+      { "option": "E DIR/P", "correct": false }
+    ],
+    "reforço": "O comando 'CD\\' retorna diretamente ao diretório raiz da unidade atual."
+  }
 ]

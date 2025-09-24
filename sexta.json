@@ -150,5 +150,60 @@
     { "option": "CONFIG.", "correct": false }
   ],
   "reforço": "O comando 'DATE' no MS-DOS é utilizado para exibir ou atualizar a data do sistema. 'TIME' serve para ajustar a hora, 'NOW' e 'CONFIG' não são comandos válidos no MS-DOS para essa função."
-}
+},
+  {
+    "question": "No MS-DOS, para que o conteúdo do arquivo exemplo.txt armazenado no disco A seja exibido na tela do computador, deve-se digitar:",
+    "answers": [
+      { "option": "A dir exemplo", "correct": false },
+      { "option": "B cat a exemplo.txt", "correct": false },
+      { "option": "C list exemplo.txt /a", "correct": false },
+      { "option": "D type a:exemplo", "correct": false },
+      { "option": "E type a:exemplo.txt", "correct": true }
+    ],
+    "reforço": "O comando 'type a:exemplo.txt' exibe o conteúdo de arquivos texto no prompt."
+  },
+  {
+    "question": "No MS-DOS, o comando destinado a renomear arquivos, o comando utilizado para criar diretórios, e o comando destinado a remover um diretório são:",
+    "answers": [
+      { "option": "nom; cd; rmv", "correct": false },
+      { "option": "nom; cr; rem", "correct": false },
+      { "option": "rarq; md; rd", "correct": false },
+      { "option": "ren; cd; rem", "correct": false },
+      { "option": "ren; md; rd", "correct": true }
+    ],
+    "reforço": "Os comandos corretos são: ren (renomear), md (criar diretório), rd (remover diretório)."
+  },
+  {
+    "question": "No MS-DOS, o comando utilizado para se copiar arquivos e subdiretórios de um diretório é:",
+    "answers": [
+      { "option": "A COPY", "correct": false },
+      { "option": "B COPY /D", "correct": false },
+      { "option": "C XCOPY", "correct": true },
+      { "option": "D XCOPY /D", "correct": false },
+      { "option": "E COPYDIR", "correct": false }
+    ],
+    "reforço": "O comando XCOPY é usado no MS-DOS para copiar arquivos e subdiretórios."
+  },
+  {
+    "question": "O comando do MS-DOS é utilizado para formatar um disco, criando uma nova FAT e um diretório raiz, criando novas trilhas e marcando áreas defeituosas.",
+    "answers": [
+      { "option": "A FDISK; desformatar; FAT; defeituosas", "correct": false },
+      { "option": "B FDISK; particionar; partição; utilizadas", "correct": false },
+      { "option": "C UNFORMAT; formatar; FAT; defeituosas", "correct": false },
+      { "option": "D FORMAT; particionar; partição; utilizadas", "correct": false },
+      { "option": "E FORMAT; formatar; FAT; defeituosas", "correct": true }
+    ],
+    "reforço": "O comando FORMAT realiza a formatação de discos no MS-DOS, criando nova FAT, diretório raiz e marcando setores defeituosos."
+  },
+  {
+    "question": "No MS-DOS, os nomes de arquivos podem ter, no máximo, 8 caracteres e uma extensão com, no máximo, 3 caracteres, sendo que esta é opcional e separada do nome por um ponto.",
+    "answers": [
+      { "option": "A oito; quatro; obrigatória; os caracteres < > . , ; :", "correct": false },
+      { "option": "B dez; quatro; obrigatória; os caracteres < > . , ; :", "correct": false },
+      { "option": "C dezesseis; três; opcional; dígitos numéricos.", "correct": false },
+      { "option": "D oito; três; opcional; dígitos numéricos.", "correct": true },
+      { "option": "E oito; três; obrigatória; dígitos numéricos.", "correct": false }
+    ],
+    "reforço": "No padrão 8.3 do MS-DOS, o nome do arquivo pode ter até 8 caracteres e a extensão até 3. A extensão é opcional."
+  }
 ]
