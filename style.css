@@ -30,7 +30,7 @@ header {
 /* Main ocupa o resto da tela e rola se necessário */
 main {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: scroll;
   background-color: white;
   padding: 20px;
   border-radius: 10px 10px 0 0;
