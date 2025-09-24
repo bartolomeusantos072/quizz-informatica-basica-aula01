@@ -13,13 +13,19 @@ const btnRestart = document.querySelector('.finish button');
 
 async function carregarQuestoes() {
   try {
-    const response = await fetch('./questions.json');
+    const dias = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado'];
+    const hoje = new Date().getDay(); // 0 = domingo, 1 = segunda...
+    const nomeArquivo = `./${dias[hoje]}.json`;
+
+    const response = await fetch(nomeArquivo);
     questions = await response.json();
     loadQuestion();
   } catch (error) {
     console.error("Erro ao carregar questões:", error);
+    question.innerHTML = "Não foi possível carregar as questões de hoje.";
   }
 }
+
 
 function nextQuestion() {
   if (currentIndex < questions.length - 1) {
@@ -42,6 +48,7 @@ function loadQuestion() {
   feedback.textContent = "";
   feedback.className = "feedback";
   reforco.textContent = "";
+  reforco.style.display="none";
 
   spnQtd.innerHTML = `${currentIndex + 1}/${questions.length}`;
   const item = questions[currentIndex];
@@ -61,6 +68,7 @@ function loadQuestion() {
     btn.addEventListener("click", (e) => {
       const selected = e.target;
       const correct = selected.getAttribute("data-correct") === "true";
+      reforco.style.display="block";
       reforco.textContent = item.reforço;
       // desabilita todos os botões
       document.querySelectorAll(".answer").forEach((b) => {

@@ -1,0 +1,221 @@
+[
+  {
+    "question": "No MS-DOS, os comandos DIR e REN são utilizados, respectivamente, para:",
+    "answers": [
+      {
+        "option": "Renomear um arquivo e excluir um diretório.",
+        "correct": false
+      },
+      {
+        "option": "Visualizar a árvore de diretórios e reindexar os arquivos em um diretório.",
+        "correct": false
+      },
+      {
+        "option": "Exibir uma lista de arquivos e pastas de um diretório e renomear um arquivo.",
+        "correct": true
+      },
+      {
+        "option": "Concatenar o conteúdo de dois arquivos e alterar os atributos de um arquivo.",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando 'DIR' é usado para listar os arquivos e pastas de um diretório. Já o comando 'REN' (de rename) é utilizado para renomear arquivos. Nenhum dos dois serve para excluir, concatenar ou alterar atributos."
+  },
+  {
+    "question": "O Microsoft Disk Operation System (MS-DOS) ou Sistema Operacional de Discos, da Microsoft, foi um dos primeiros sistemas operacionais desta empresa. Não possuía interface gráfica, e durante muito tempo esteve presente nos sistemas gráficos Windows. Nos sistemas Windows da atualidade é possível se ter acesso a vários comandos do MS-DOS, através do Prompt de Comandos. Muitos comandos úteis na manutenção do sistema podem ser acessados pelo Prompt de Comando, e alguns com uma boa eficiência. Após executar qualquer comando, o comando CLS pode ser utilizado para “limpar a tela”, e posiciona o cursor no canto superior esquerdo da tela. Para verificar o conteúdo de uma determinada pasta, o comando DIR pode ser utilizado e o mesmo se utiliza de algumas opções para aumentar sua eficiência. Uma dessas opções é utilizada para mostrar o “dono do arquivo”. Assinale a alternativa que, utilizada com o comando DIR, mostra o “dono do arquivo”.",
+    "answers": [
+      { "option": "/p.", "correct": false },
+      { "option": "/b.", "correct": false },
+      { "option": "/c.", "correct": false },
+      { "option": "/q.", "correct": true }
+    ],
+    "reforço": "A opção /q no comando DIR exibe o proprietário (dono) de cada arquivo listado. As outras opções têm funções diferentes: /p pausa a exibição, /b mostra apenas os nomes dos arquivos, e /c exibe o tamanho com separadores de milhar."
+  },
+  {
+    "question": "No prompt de comandos do Windows, o que acontece ao digitarmos o comando format c: seguido da tecla ENTER?",
+    "answers": [
+      { "option": "formata o texto c:", "correct": false },
+      { "option": "formata a unidade de disco C", "correct": true },
+      { "option": "formata o caracter C", "correct": false },
+      { "option": "formata o arquivo", "correct": false },
+      { "option": "este comando não existe", "correct": false }
+    ],
+    "reforço": "O comando 'format c:' é utilizado para formatar a unidade de disco C, apagando todos os dados nela."
+  },
+  {
+    "question": "Ao digitarmos o comando cd\\Intel no prompt de comandos do Windows qual o resultado?",
+    "answers": [
+      { "option": "cria o diretório Intel", "correct": false },
+      { "option": "apaga o diretório Intel", "correct": false },
+      { "option": "muda as permissões do diretório Intel", "correct": false },
+      { "option": "copia os arquivos do diretório Intel", "correct": false },
+      { "option": "acessa o diretório Intel", "correct": true }
+    ],
+    "reforço": "O comando 'cd\\Intel' acessa o diretório Intel localizado na raiz do drive atual."
+  },
+  {
+    "question": "Sobre comandos MS‐DOS, analise as afirmativas a seguir.<br><br>I. Os comandos CDDIR e RMDIR são utilizados, respectivamente, para criar e remover diretórios.<br>II. O comando TREE é utilizado para exibir graficamente a árvore de diretórios a partir do diretório‐raiz.<br>III. Os comandos CLS e CD são utilizados respectivamente para limpar as informações do prompt de comando e mudar o diretório corrente para outro a partir da pasta atual.<br><br>Está(ão) correta(s) apenas a(s) afirmativa(s):",
+    "answers": [
+      { "option": "I.", "correct": false },
+      { "option": "II.", "correct": false },
+      { "option": "III.", "correct": false },
+      { "option": "II e III.", "correct": true }
+    ],
+    "reforço": "Afirmativa I está incorreta porque o comando correto para criar diretórios é 'MD' ou 'MKDIR', não 'CDDIR'. As afirmativas II e III estão corretas."
+  },
+  {
+    "question": "Na computação, preempção é o ato de interromper temporariamente uma tarefa a ser realizada por um sistema de computador sem a necessidade de sua cooperação e com a intenção de retomar a tarefa em um momento posterior. Marque a alternativa em que o sistema operacional não é multitarefa com preempção:",
+    "answers": [
+      { "option": "Linux", "correct": false },
+      { "option": "Windows NT", "correct": false },
+      { "option": "MS-DOS", "correct": true },
+      { "option": "MS-Windows", "correct": false },
+      { "option": "Cronix", "correct": false }
+    ],
+    "reforço": "O MS-DOS não é um sistema operacional multitarefa com preempção. Ele executa uma tarefa por vez e não possui gerenciamento de processos como os sistemas modernos."
+  },
+  {
+    "question": "Para a digitação de comandos do MSDOS (Microsoft Disk Operating System), pelo Windows, devo acionar o:",
+    "answers": [
+      { "option": "script de comando.", "correct": false },
+      { "option": "prompt de comando", "correct": true },
+      { "option": "script de arquivos.", "correct": false },
+      { "option": "prompt de arquivos", "correct": false }
+    ],
+    "reforço": "O 'Prompt de Comando' é a interface utilizada para digitar comandos do MS-DOS no Windows."
+  },
+  {
+    "question": "Os arquivos .BAT estão presentes nos sistemas operacionais da Microsoft desde a época do DOS, chegando até os modernos Windows 8. Seu comportamento padrão é imprimir o comando a ser executado antes de executá-lo.<br><br>Quando o programador de um arquivo .BAT deseja que ele opere “em silêncio”, sem mostrar nenhum dos comandos que vai executar dentro desse arquivo, deve usar no início do arquivo o comando:",
+    "answers": [
+      { "option": "@echo off", "correct": true },
+      { "option": "@mute", "correct": false },
+      { "option": "echo off", "correct": false },
+      { "option": "set -v off", "correct": false },
+      { "option": "set echo off", "correct": false }
+    ],
+    "reforço": "O comando '@echo off' suprime a exibição dos comandos em execução dentro de um arquivo .BAT, permitindo que ele opere silenciosamente."
+  },
+  {
+    "question": "Na plataforma MS-DOS, por meio do comando Attrib –r + h C:\\>texto.txt, é possível alterar os atributos do arquivo texto.txt, removendo o atributo de somente leitura e adicionando o atributo de arquivo oculto.",
+    "answers": [
+      { "option": "Certo", "correct": true },
+      { "option": "Errado", "correct": false }
+    ],
+    "reforço": "O comando 'attrib -r +h texto.txt' remove o atributo de somente leitura (-r) e adiciona o atributo de oculto (+h) ao arquivo especificado."
+  },
+  {
+    "question": "Para identificar se o computador “C” está ativo na rede, através do computador “A”, basta que no prompt de comando DOS seja utilizado o comando:",
+    "answers": [
+      { "option": "Tragetory.", "correct": false },
+      { "option": "Tree", "correct": false },
+      { "option": "Ping.", "correct": true },
+      { "option": "Route.", "correct": false },
+      { "option": "Data Verification.", "correct": false }
+    ],
+    "reforço": "O comando 'ping' é utilizado para verificar a conectividade entre computadores em uma rede."
+  },
+  {
+    "question": "Assinale a alternativa que apresenta o comando em código fonte do DOS (arquivos com extensão .bat na linha de comando do Windows XP, em sua configuração original) para se executar um desvio incondicional.",
+    "answers": [
+      { "option": "echo", "correct": false },
+      { "option": "if", "correct": false },
+      { "option": "pause>nul", "correct": false },
+      { "option": "goto", "correct": true },
+      { "option": "set input", "correct": false }
+    ],
+    "reforço": "O comando 'goto' realiza um desvio incondicional para um rótulo especificado dentro de um arquivo .bat."
+  },
+  {
+    "question": "O DOS é um sistema operacional que suporta a execução de arquivos em lote, arquivos executáveis e de comando.",
+    "answers": [
+      { "option": "Certo", "correct": true },
+      { "option": "Errado", "correct": false }
+    ],
+    "reforço": "O DOS permite a execução de arquivos .bat (em lote), arquivos executáveis (.exe) e comandos internos."
+  },
+  {
+    "question": "No DOS, o sistema de arquivos suporta o nome de arquivos com até 8 caracteres e extensão em até 3 caracteres.",
+    "answers": [
+      { "option": "Certo", "correct": true },
+      { "option": "Errado", "correct": false }
+    ],
+    "reforço": "O sistema de arquivos do DOS segue o padrão 8.3, com até 8 caracteres no nome e 3 na extensão."
+  },
+  {
+    "question": "Marque V para as afirmativas verdadeiras e F para as falsas:<br>I. O MS-DOS é um Sistema Operacional multiprogramado.<br>II. O Sistema Operacional Windows XP foi desenvolvido para microcomputadores Apple.<br>III. 2 KBytes é igual a 2.048 Bytes.<br>IV. No Windows Explorer é possível excluir uma pasta mesmo que ela não esteja vazia.<br>V. Mozilla Firefox é um editor de textos da Microsoft.",
+    "answers": [
+      { "option": "V – V – V – V – V", "correct": false },
+      { "option": "F – F – V – V – V", "correct": false },
+      { "option": "F – F – V – V – F", "correct": true },
+      { "option": "V – V – V – V – F", "correct": false },
+      { "option": "F – V – V – V – F", "correct": false }
+    ],
+    "reforço": "I: F (MS-DOS não é multiprogramado), II: F (Windows XP é da Microsoft), III: V (2 KB = 2048 Bytes), IV: V, V: F (Firefox é navegador da Mozilla)."
+  },
+  {
+    "question": "Qual comando do MS-DOS que cria um diretório em um disco?",
+    "answers": [
+      { "option": "CD.", "correct": false },
+      { "option": "DIR.", "correct": false },
+      { "option": "CHKDSK.", "correct": false },
+      { "option": "CHDIR.", "correct": false },
+      { "option": "MKDIR.", "correct": true }
+    ],
+    "reforço": "O comando 'mkdir' (ou 'md') é utilizado para criar diretórios no MS-DOS."
+  },
+  {
+    "question": "Deseja-se listar na tela somente os arquivos que têm exatamente duas letras antes da extensão, não importando qual a extensão. O comando MS-DOS que produz a lista é:",
+    "answers": [
+      { "option": "DIR *.*", "correct": false },
+      { "option": "DIR **.?", "correct": false },
+      { "option": "DIR ??.?", "correct": false },
+      { "option": "DIR ??.*", "correct": true },
+      { "option": "DIR ??*.?", "correct": false }
+    ],
+    "reforço": "O padrão '??.*' seleciona arquivos com exatamente dois caracteres antes da extensão, qualquer extensão."
+  },
+  {
+    "question": "O comando TYPE no MS-DOS serve para:",
+    "answers": [
+      { "option": "mudar o tipo de um arquivo.", "correct": false },
+      { "option": "mudar a extensão de um arquivo.", "correct": false },
+      { "option": "listar o conteúdo de um arquivo.", "correct": true },
+      { "option": "listar um diretório de determinado tipo.", "correct": false },
+      { "option": "transformar um arquivo do tipo “dados” em um diretório, mantendo o mesmo nome.", "correct": false }
+    ],
+    "reforço": "O comando 'type' exibe o conteúdo de arquivos de texto diretamente no prompt."
+  },
+  {
+    "question": "No MS DOS qual o comando utilizado para exibir na tela o conteúdo dos arquivos?",
+    "answers": [
+      { "option": "Dir.", "correct": false },
+      { "option": "Type.", "correct": true },
+      { "option": "Cls.", "correct": false },
+      { "option": "Atrib.", "correct": false },
+      { "option": "Print screem.", "correct": false }
+    ],
+    "reforço": "O comando 'type' é usado para mostrar o conteúdo de arquivos de texto no MS-DOS."
+  },
+  {
+    "question": "No MS DOS, qual o comando utilizado para listar arquivos em uma determinada pasta?",
+    "answers": [
+      { "option": "Ls.", "correct": false },
+      { "option": "Dir.", "correct": true },
+      { "option": "List.", "correct": false },
+      { "option": "Print", "correct": false },
+      { "option": "diretorio", "correct": false }
+    ],
+    "reforço": "O comando 'dir' lista os arquivos e diretórios de uma pasta no MS-DOS."
+  },
+  {
+    "question": "Qual a função do parâmetro /A no comando COPY do DOS?",
+    "answers": [
+      { "option": "Suprimir o prompt de confirmação de cópia para arquivos já existentes no destino.", "correct": false },
+      { "option": "Indicar que o arquivo fonte é do tipo ASCII.", "correct": false },
+      { "option": "Indicar que deve ser usado um nome de arquivo curto.", "correct": false },
+      { "option": "Indicar que os atributos do arquivo fonte devem ser mantidos.", "correct": true },
+      { "option": "Indicar que a criação dos arquivos destinos sejam descriptografados.", "correct": false }
+    ],
+    "reforço": "O parâmetro /A no comando COPY indica que o arquivo é do tipo ASCII e deve manter seus atributos."
+  }
+]

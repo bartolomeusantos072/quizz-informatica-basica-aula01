@@ -1,0 +1,244 @@
+[
+  {
+    "question": "No Windows, a função de gerenciamento do computador permite que diversas atividades de manutenção em computadores locais e remotos sejam realizadas, como, por exemplo, gerenciar recursos compartilhados, visualizar usuários conectados e interromper serviços do sistema.",
+    "answers": [
+      { "option": "certo", "correct": true },
+      { "option": "errado", "correct": false }
+    ],
+    "reforço": "No Windows, a função de gerenciamento do computador realmente permite realizar várias atividades de manutenção, como gerenciar recursos compartilhados, visualizar usuários conectados e interromper serviços do sistema."
+  },
+  {
+    "question": "Os sistemas de arquivos são as formas de organização de dados em um meio de armazenamento, que normalmente são os discos magnéticos. Assinale a alternativa que apresenta o nome de um sistema de arquivos desenvolvido pela Microsoft, nativo em alguns sistemas operacionais Windows.",
+
+    "answers": [
+      { "option": "EXT3 – Third Extended File System.", "correct": false },
+      { "option": "XFS – Extended File System.", "correct": false },
+      { "option": "NTFS – New Technology File System.", "correct": true },
+      { "option": "UFS – Unix File System.", "correct": false },
+      { "option": "RaiserFS – Raiser’s File System.", "correct": false }
+    ],
+    "reforço": "O NTFS (New Technology File System) é um sistema de arquivos desenvolvido pela Microsoft, utilizado em sistemas operacionais Windows para gerenciar dados em discos rígidos."
+  },
+  {
+    "question": "No MS-DOS, muitos comandos são utilizados para navegar entre pastas, gerenciar arquivos e executar tarefas no sistema. Diante disso, marque V para as afirmativas verdadeiras e F para as falsas.<br> ( ) dir: avança a listagem dos arquivos.<br>  ( ) cd: lista os arquivos e pastas do diretório atual.<br>     ( ) rmdir: volta um nível na hierarquia de diretórios.<br>    ( ) cls: limpa a tela do prompt de comando.",
+
+    "answers": [
+      { "option": "F, F, F, V.", "correct": true },
+      { "option": "V, F, V, V.", "correct": false },
+      { "option": "V, V, V, F.", "correct": false },
+      { "option": "F, F, F, F.", "correct": false },
+      { "option": "F, V, F, F.", "correct": false }
+    ],
+    "reforço": "As afirmativas corretas são: (F) dir: lista os arquivos e pastas do diretório atual. (F) cd: avança ou muda o diretório atual. (F) rmdir: remove uma pasta vazia. (V) cls: limpa a tela do prompt de comando."
+  },
+  {
+    "question": "Qual comando deve ser usado no Prompt de Comando do Windows 10 para exibir a lista de todos os arquivos e pastas no diretório atual, incluindo os arquivos ocultos?",
+    "answers": [
+      { "option": "dir/p", "correct": false },
+      { "option": "dir /a", "correct": true },
+      { "option": "dir /s", "correct": false },
+      { "option": "dir /w", "correct": false },
+      { "option": "dir /o", "correct": false }
+    ],
+    "reforço": "O comando 'dir /a' no Prompt de Comando do Windows 10 exibe todos os arquivos e pastas no diretório atual, incluindo os arquivos ocultos."
+  },
+  {
+    "question": "O MS-DOS foi um sistema operacional de linha de comando desenvolvido pela Microsoft. Os usuários interagiam com o sistema digitando comandos de texto para realizar diversas tarefas. Sobre os comandos do MS-DOS, a função do comando MKDIR se refere a:",
+    "answers": [
+      { "option": "deletar uma diretorio", "correct": false },
+      { "option": "renomear um diretorio", "correct": false },
+      { "option": "criar um diretorio ", "correct": true },
+      { "option": "mover um diretorio", "correct": false },
+      { "option": "colar um diretorio", "correct": false }
+    ],
+    "reforço": "O comando MKDIR (Make Directory) no MS-DOS é usado para criar um novo diretório (pasta) no sistema de arquivos."
+  },
+  {
+    "question": "Refere-se ao comando utilizado no MS-DOS (Microsoft Disk Operating System) para mudar o diretório de trabalho atual. Esse comando permite que o usuário navegue entre os diferentes diretórios ou pastas no sistema:",
+    "answers": [
+      { "option": "rmdir", "correct": false },
+      { "option": "cd", "correct": true },
+      { "option": "mkdir", "correct": false },
+      { "option": "del", "correct": false },
+      { "option": "copy", "correct": false }
+    ],
+    "reforço": "O comando 'cd' (Change Directory) no MS-DOS é utilizado para mudar o diretório de trabalho atual, permitindo que o usuário navegue entre diferentes pastas no sistema."
+  },
+  {
+    "question": "No MS-DOS, o comando utilizado para remover um diretório (pasta) vazio do sistema de arquivos é:",
+    "answers": [
+      { "option": "rmdir", "correct": true },
+      { "option": "mkdir", "correct": false },
+      { "option": "del", "correct": false },
+      { "option": "copy", "correct": false },
+      { "option": "move", "correct": false }
+    ],
+    "reforço": "O comando 'rmdir' (Remove Directory) no MS-DOS é usado para remover um diretório vazio do sistema de arquivos."
+  },
+  {
+    "question": "Relacione os comandos do MS-DOS com seus respectivos empregos:<br><br>1. Chkdsk<br>2. Fdisk<br>3. Scandisk<br>4. Format<br><br>( ) Usado para iniciar o programa de reparo de disco.<br>( ) Usado para formatar uma unidade no sistema de arquivos especificado.<br>( ) Utilizado para identificar e corrigir certos erros do disco rígido.<br>( ) Usado para criar, gerenciar e excluir partições de disco rígido.<br><br>Assinale a opção que indica a relação correta, na ordem apresentada.",
+    "answers": [
+      { "option": "3, 4, 1, 2", "correct": true },
+      { "option": "1, 4, 3, 2", "correct": false },
+      { "option": "2, 3, 1, 4", "correct": false },
+      { "option": "4, 3, 2, 1", "correct": false }
+    ],
+    "reforço": "A ordem correta é: 3 (Scandisk) – Usado para iniciar o programa de reparo de disco; 4 (Format) – Usado para formatar uma unidade; 1 (Chkdsk) – Utilizado para identificar e corrigir erros; 2 (Fdisk) – Usado para criar, gerenciar e excluir partições."
+  },
+  {
+    "question": "Durante a utilização do MS-DOS é comum empregarmos diversos comandos, como criar uma pasta, excluir arquivos, verificar o conteúdo de um diretório e navegar entre diretórios. Como consequência, a interface de linha de comando pode se tornar poluída com muitas informações. Por esse motivo, é uma boa prática realizar a limpeza para deixar a interface mais organizada. O comando que é responsável por limpar a tela no MS-DOS trata-se de:",
+    "answers": [
+      { "option": "dir", "correct": false },
+      { "option": "cls", "correct": true },
+      { "option": "cd", "correct": false },
+      { "option": "md", "correct": false }
+    ],
+    "reforço": "O comando 'cls' no MS-DOS é utilizado para limpar a tela do prompt de comando, deixando a interface mais organizada."
+  },
+  {
+    "question": "O MS-DOS é um sistema operacional de linha de comando que foi amplamente utilizado antes da popularização do Windows; no entanto, ainda é possível usar alguns de seus comandos no atual Prompt de comando como, por exemplo, “dir”, “cd”, “copy”, “move”. Qual é a função desempenhada pelo comando “cd” no MS-DOS?",
+    "answers": [
+      { "option": "Criar um novo diretório.", "correct": false },
+      { "option": "Listar os arquivos do diretório atual.", "correct": false },
+      { "option": "Mudar o diretório atual.", "correct": true },
+      { "option": "Excluir um arquivo.", "correct": false },
+      { "option": "Copiar um arquivo para outro local.", "correct": false }
+    ],
+    "reforço": "O comando 'cd' (Change Directory) no MS-DOS é utilizado para mudar o diretório de trabalho atual, permitindo que o usuário navegue entre diferentes pastas no sistema."
+  },
+  {
+    "question": "É o comando do Sistema Operacional MS-DOS utilizado para criar pastas/diretórios e/ou subpastas/subdiretórios:",
+    "answers": [
+      { "option": "mem", "correct": false },
+      { "option": "mode", "correct": false },
+      { "option": "more", "correct": false },
+      { "option": "mkdir", "correct": true }
+    ],
+    "reforço": "O comando 'mkdir' é utilizado no MS-DOS para criar novas pastas ou diretórios."
+  },
+  {
+    "question": "No Sistema Operacional MS-DOS, o comando format serve para formatar um disco, para receber dados. É utilizado com algumas opções; em uma delas, a formatação é feita rapidamente com a seguinte sintaxe: [format <unidade> <opções>]. Trata-se de:",
+    "answers": [
+      { "option": "/c", "correct": false },
+      { "option": "/d", "correct": false },
+      { "option": "/q", "correct": true },
+      { "option": "/x", "correct": false }
+    ],
+    "reforço": "A opção '/q' no comando 'format' do MS-DOS realiza uma formatação rápida do disco."
+  },
+  {
+    "question": "No Sistema Operacional MS-DOS, há um comando que exibe o menu para criar, ativar, deletar e exibir partições; assinale-o.",
+    "answers": [
+      { "option": "TITLE", "correct": false },
+      { "option": "TREE", "correct": false },
+      { "option": "FDISK", "correct": true },
+      { "option": "RMDIR", "correct": false }
+    ],
+    "reforço": "O comando 'FDISK' no MS-DOS é utilizado para criar, ativar, deletar e exibir partições em discos rígidos."
+  },
+  {
+    "question": "Comando do Sistema Operacional MS-DOS utilizado para apagar todas as informações mostradas na tela e, ainda, colocar o cursor no canto superior esquerdo. Trata-se:",
+    "answers": [
+      { "option": "cls", "correct": true },
+      { "option": "chdir", "correct": false },
+      { "option": "comp", "correct": false },
+      { "option": "deltree", "correct": false }
+    ],
+    "reforço": "O comando 'cls' limpa toda a tela do prompt de comando e posiciona o cursor no canto superior esquerdo."
+  },
+  {
+    "question": "Envia ou controla o envio de mensagens para a saída padrão. Usado em scripts DOS para controlar as mensagens encaminhadas para a saída padrão (monitor, tela). Trata-se do seguinte comando do Sistema Operacional MS-DOS:",
+    "answers": [
+      { "option": "find", "correct": false },
+      { "option": "path", "correct": false },
+      { "option": "echo", "correct": true },
+      { "option": "pause", "correct": false }
+    ],
+    "reforço": "O comando 'echo' no MS-DOS é utilizado para exibir mensagens ou controlar o envio de informações para a saída padrão."
+  },
+  {
+    "question": "Sabendo-se que o usuário está na pasta “c:\\tmp” e que essa pasta possui o arquivo “x.txt”, qual será o resultado obtido ao entrar, no prompt do MS-DOS, com o comando: teste.bat x.txt y.txt",
+    "answers": [
+      {
+        "option": "O arquivo denominado “%1” será renomeado para “%2”.",
+        "correct": false
+      },
+      {
+        "option": "O arquivo denominado “x.txt” será renomeado para “y.txt”.",
+        "correct": true
+      },
+      {
+        "option": "O conteúdo dos dois arquivos “x.txt” e “y.txt” será “rename”.",
+        "correct": false
+      },
+      {
+        "option": "Os dois arquivos “x.txt” e “y.txt” serão impressos devido ao comando @echo off.",
+        "correct": false
+      },
+      {
+        "option": "Nenhum processamento será realizado devido ao comando @echo off.",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando rename %1 %2 renomeia x.txt para y.txt, com os parâmetros passados ao arquivo .bat."
+  },
+  {
+    "question": "Qual comando é utilizado para se fazer uma formatação rápida do drive C: em modo MS-DOS?",
+    "answers": [
+      { "option": "Format C:", "correct": false },
+      { "option": "Format C: /a", "correct": false },
+      { "option": "Format C: /q", "correct": true },
+      { "option": "Deltree C:\\", "correct": false },
+      { "option": "Del C:\\*.*", "correct": false }
+    ],
+    "reforço": "O parâmetro /q realiza uma formatação rápida no MS-DOS."
+  },
+  {
+    "question": "Para fechar uma janela do Prompt do MS-DOS aberta no Windows 98 o usuário deve digitar na linha de comando do prompt o comando:",
+    "answers": [
+      { "option": "bye", "correct": false },
+      { "option": "exit", "correct": true },
+      { "option": "halt", "correct": false },
+      { "option": "kill", "correct": false },
+      { "option": "quit", "correct": false }
+    ],
+    "reforço": "O comando 'exit' encerra a sessão do prompt de comando."
+  },
+  {
+    "question": "Os comandos MD, CD e RD no MS-DOS têm, respectivamente, as seguintes funções:",
+    "answers": [
+      {
+        "option": "mudar o diretório atual, criar diretório e deletar diretório.",
+        "correct": false
+      },
+      {
+        "option": "deletar diretório, criar diretório e mudar o diretório atual.",
+        "correct": false
+      },
+      {
+        "option": "criar diretório, mudar o diretório atual e deletar diretório.",
+        "correct": true
+      },
+      {
+        "option": "criar diretório, deletar diretório e mudar o diretório atual.",
+        "correct": false
+      },
+      {
+        "option": "mudar o diretório atual, deletar diretório e criar diretório.",
+        "correct": false
+      }
+    ],
+    "reforço": "MD cria diretório, CD muda o diretório atual, RD remove diretório."
+  },
+  {
+    "question": "Assinale a opção que apresenta apenas comandos MS-DOS.",
+    "answers": [
+      { "option": "PATH, MOVE, PUT e CLEAR", "correct": false },
+      { "option": "LESS, EQUAL, COMP e SUM", "correct": false },
+      { "option": "READ, INSERT, DIR e MORE", "correct": false },
+      { "option": "CHMOD,RM, MODE e LS", "correct": false },
+      { "option": "ATTRIB, CLS, TYPE e FDISK", "correct": true }
+    ],
+    "reforço": "ATTRIB, CLS, TYPE e FDISK são comandos válidos do MS-DOS. Os demais pertencem a outros sistemas ou são inválidos."
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "question": "O sistema operacional é responsável por:",
+    "answers": [
+      { "option": "Somente rodar jogos no computador.", "correct": false },
+      { "option": "Gerenciar apenas os programas de texto.", "correct": false },
+      {
+        "option": "Controlar o hardware e o software do computador.",
+        "correct": true
+      },
+      {
+        "option": "Produzir arquivos de música automaticamente.",
+        "correct": false
+      }
+    ],
+    "reforço": "O sistema operacional é o software mais importante do computador, pois gerencia tanto o hardware (partes físicas) quanto o software (programas e arquivos)."
+  },
+  {
+    "question": "O software cria arquivos, e o sistema operacional:",
+    "answers": [
+      { "option": "Apenas apaga os arquivos.", "correct": false },
+      {
+        "option": "Organiza em pastas e armazena os arquivos.",
+        "correct": true
+      },
+      {
+        "option": "Transforma os arquivos em números mágicos.",
+        "correct": false
+      },
+      { "option": "Usa só para abrir imagens.", "correct": false }
+    ],
+    "reforço": "O sistema operacional organiza os arquivos criados pelos softwares em pastas, facilitando o armazenamento e a localização dos mesmos."
+  },
+  {
+    "question": "Qual alternativa apresenta tipos de arquivos?",
+    "answers": [
+      { "option": "Mouse, teclado e monitor.", "correct": false },
+      { "option": "Texto, imagem, áudio, vídeo.", "correct": true },
+      { "option": "Pastas, programas e ícones.", "correct": false },
+      { "option": "Hardware, software e internet.", "correct": false }
+    ],
+    "reforço": "Os tipos de arquivos mais comuns são texto (documentos), imagem (fotos), áudio (músicas) e vídeo (filmes)."
+  },
+  {
+    "question": "Para o computador, todo arquivo é entendido como:",
+    "answers": [
+      { "option": "Letras e imagens.", "correct": false },
+      { "option": "Números decimais (1 a 9).", "correct": false },
+      { "option": "Números binários (0 e 1).", "correct": true },
+      { "option": "Palavras e frases.", "correct": false }
+    ],
+    "reforço": "O computador interpreta todos os arquivos como números binários, compostos por 0s e 1s, que representam diferentes tipos de dados."
+  },
+  {
+    "question": "O tipo de arquivo ajuda o sistema operacional a:",
+    "answers": [
+      {
+        "option": "Não se confundir entre um texto, uma imagem ou um vídeo.",
+        "correct": true
+      },
+      { "option": "Aumentar a memória do computador.", "correct": false },
+      { "option": "Gerar mais velocidade na internet.", "correct": false },
+      { "option": "Produzir sons automaticamente.", "correct": false }
+    ],
+    "reforço": "O tipo de arquivo é essencial para o sistema operacional identificar e diferenciar entre textos, imagens, vídeos e outros formatos, garantindo que sejam abertos com os programas corretos."
+  },
+  {
+    "question": "O MS-DOS é um sistema operacional que funciona:",
+    "answers": [
+      { "option": "Por comandos de texto digitados.", "correct": true },
+      { "option": "Apenas com janelas e ícones.", "correct": false },
+      { "option": "Somente em celulares.", "correct": false },
+      { "option": "Exclusivamente em nuvem.", "correct": false }
+    ],
+    "reforço": "O MS-DOS é um sistema operacional baseado em linha de comando, onde os usuários interagem digitando comandos de texto para executar tarefas."
+  },
+  {
+    "question": "No MS-DOS, o comando 'mkdir escola' serve para:",
+    "answers": [
+      { "option": "Apagar a pasta escola.", "correct": false },
+      { "option": "Criar uma pasta chamada escola.", "correct": true },
+      { "option": "Entrar dentro da pasta escola.", "correct": false },
+      { "option": "Mostrar os arquivos da pasta escola.", "correct": false }
+    ],
+    "reforço": "O comando 'mkdir escola' no MS-DOS é usado para criar uma nova pasta chamada 'escola'."
+  },
+  {
+    "question": "No MS-DOS, o comando 'cd escola' serve para:",
+    "answers": [
+      { "option": "Apagar a pasta escola.", "correct": false },
+      { "option": "Criar a pasta escola.", "correct": false },
+      { "option": "Entrar dentro da pasta escola.", "correct": true },
+      { "option": "Mostrar os arquivos da pasta escola.", "correct": false }
+    ],
+    "reforço": "O comando 'cd escola' no MS-DOS é utilizado para mudar o diretório atual para a pasta chamada 'escola', permitindo que o usuário acesse seu conteúdo."
+  },
+  {
+    "question": "Para digitar a letra 'A' maiúscula no teclado, o aluno deve usar:",
+    "answers": [
+      { "option": "Somente a tecla A.", "correct": false },
+      { "option": "A tecla Shift + A.", "correct": true },
+      { "option": "A tecla AltGr + A.", "correct": false },
+      { "option": "Não é possível digitar A maiúsculo.", "correct": false }
+    ],
+    "reforço": "Para digitar a letra 'A' maiúscula, o usuário deve pressionar e segurar a tecla Shift enquanto pressiona a tecla A."
+  },
+  {
+    "question": "Quando uma tecla possui três símbolos impressos, o terceiro símbolo é digitado com:",
+    "answers": [
+      { "option": "Somente a tecla Shift.", "correct": false },
+      { "option": "Somente a tecla Ctrl.", "correct": false },
+      { "option": "A tecla AltGr.", "correct": true },
+      { "option": "A tecla Caps Lock.", "correct": false }
+    ],
+    "reforço": "O terceiro símbolo em uma tecla é acessado pressionando a tecla AltGr (Alternative Graphic), que permite digitar caracteres adicionais."
+  },
+  {
+    "question": "No MS-DOS, os comandos move, cp e xcopy podem ser usados para transferir arquivos de um computador para o outro.",
+    "answers": [
+      { "option": "Certo", "correct": false },
+      { "option": "Errado", "correct": true }
+    ],
+    "reforço": "No MS-DOS, os comandos 'move' e 'xcopy' servem para mover e copiar arquivos entre pastas ou unidades locais, mas não transferem arquivos diretamente entre computadores. O comando 'cp' não existe no MS-DOS."
+  },
+  {
+    "question": "Nos equipamentos desktop com o Sistema Operacional Windows, temos o que chamamos de Command Prompt. Esta é uma forma de interagir com o Sistema Operacional de uma forma não gráfica. A estrutura visível ao usuário que adentrar no Sistema Operacional desta forma apresenta as seguintes propriedades.<br><br>I. Tipo Diretório.<br>II. Tipo 32 ou 64 bits.<br>III. Data Criação/alteração.<br>IV. Hora Criação/Alteração.<br>V. Nome Arquivo.<br><br>Estão corretas as afirmativas:",
+    "answers": [
+      { "option": "III e IV apenas", "correct": false },
+      { "option": "I, III, IV e V apenas", "correct": true },
+      { "option": "I, III e V apenas", "correct": false },
+      { "option": "I, II, III, IV e V", "correct": false }
+    ],
+    "reforço": "No Command Prompt, ao listar arquivos e diretórios, são exibidos o tipo (diretório ou arquivo), data e hora de criação/alteração, e o nome do arquivo. O tipo 32 ou 64 bits não é exibido nessa estrutura."
+  },
+  {
+    "question": "Nos equipamentos desktop com o Sistema Operacional Windows, temos o que chamamos de Command Prompt. Esta é uma forma de interagir com o Sistema Operacional de uma forma não gráfica. A estrutura visível ao usuário que adentrar no Sistema Operacional desta forma apresenta as seguintes propriedades.<br><br>I. Tipo Diretório.<br>II. Tipo 32 ou 64 bits.<br>III. Data Criação/alteração.<br>IV. Hora Criação/Alteração.<br>V. Nome Arquivo.<br><br>Estão corretas as afirmativas:",
+    "answers": [
+      { "option": "III e IV apenas", "correct": false },
+      { "option": "I, III, IV e V apenas", "correct": true },
+      { "option": "I, III e V apenas", "correct": false },
+      { "option": "I, II, III, IV e V", "correct": false }
+    ],
+    "reforço": "No Command Prompt, ao listar arquivos e diretórios, são exibidos o tipo (diretório ou arquivo), data e hora de criação/alteração, e o nome do arquivo. O tipo 32 ou 64 bits não é exibido nessa estrutura."
+  },
+  {
+    "question": "ATTRIB se trata de um comando do Sistema Operacional MS-DOS utilizado para mostrar os atributos de um arquivo e/ou alterá-los. Com o sinal de mais (+) acrescenta-se um atributo e com o sinal de menos (–) retira-se o atributo. O comando ATTRIB tem função análoga ao [chmod] dos sistemas GNU/Linux. Sua sintaxe é: attrib <opções> <unidade> <caminho> <arquivo>. Assinale, a seguir, o atributo de arquivo oculto.",
+    "answers": [
+      { "option": "A", "correct": false },
+      { "option": "H", "correct": true },
+      { "option": "R", "correct": false },
+      { "option": "S", "correct": false }
+    ],
+    "reforço": "No MS-DOS, o atributo 'H' indica que o arquivo é oculto (Hidden)."
+  },
+  {
+    "question": "Na linha de comando do Sistema Operacional MS-DOS, o comando _____ é usado para apagar um ou mais diretórios junto com todos os seus subdiretórios e arquivos neles contidos. Assinale a alternativa que completa corretamente a afirmativa anterior.",
+    "answers": [
+      { "option": "DEL", "correct": false },
+      { "option": "FIND", "correct": false },
+      { "option": "RMDIR", "correct": false },
+      { "option": "DELTREE", "correct": true }
+    ],
+    "reforço": "O comando 'DELTREE' no MS-DOS apaga diretórios, subdiretórios e todos os arquivos contidos neles."
+  },
+  {
+    "question": "Qual a função do parâmetro /-C no comando DIR do DOS?",
+    "answers": [
+      { "option": "Exibir o proprietário dos arquivos.", "correct": false },
+      {
+        "option": "Ignorar a data de criação dos arquivos na ordenação da listagem.",
+        "correct": false
+      },
+      {
+        "option": "Fazer uma pausa a cada tela de informações.",
+        "correct": false
+      },
+      {
+        "option": "Não exibir o separador de milhar no tamanho dos arquivos.",
+        "correct": true
+      },
+      {
+        "option": "Ordenar pela data de criação dos arquivos.",
+        "correct": false
+      }
+    ],
+    "reforço": "O parâmetro /-C no comando DIR remove o separador de milhar na exibição do tamanho dos arquivos, tornando a visualização mais compacta."
+  },
+  {
+    "question": "No MS-DOS, para que serve o comando “RD”?",
+    "answers": [
+      { "option": "Para criar um novo diretório.", "correct": false },
+      {
+        "option": "Para verificar a integridade dos arquivos.",
+        "correct": false
+      },
+      { "option": "Para apagar um diretório existente.", "correct": true },
+      { "option": "Para entrar no Windows.", "correct": false }
+    ],
+    "reforço": "O comando 'RD' (Remove Directory) é usado para excluir diretórios vazios no MS-DOS."
+  },
+  {
+    "question": "Observe o comando a seguir, que foi digitado no MS-DOS: “MD Arquivos de Programas”. O que vai acontecer quando o comando for confirmado?",
+    "answers": [
+      {
+        "option": "O diretório “Arquivos de Programas” vai ser deletado.",
+        "correct": false
+      },
+      {
+        "option": "O diretório “Arquivos de Programas” vai ser ocultado.",
+        "correct": false
+      },
+      {
+        "option": "Vai ser criado um novo diretório, com o nome “Arquivos de Programas”.",
+        "correct": true
+      },
+      {
+        "option": "O usuário vai entrar no diretório “Arquivos de Programas”.",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando 'MD' (Make Directory) cria um novo diretório com o nome especificado, mesmo que contenha espaços."
+  },
+  {
+    "question": "Observe o comando a seguir, que foi digitado no MS-DOS: “REN Ar.JPG Arquivo.JPG”. O que vai acontecer com o arquivo quando o comando for confirmado?",
+    "answers": [
+      {
+        "option": "O arquivo antes chamado Arquivo.JPG vai ser renomeado para Ar.JPG.",
+        "correct": false
+      },
+      { "option": "Ambos os arquivos vão ser deletados.", "correct": false },
+      {
+        "option": "O arquivo antes chamado Ar.JPG vai ser renomeado para Arquivo.JPG.",
+        "correct": true
+      },
+      {
+        "option": "O arquivo antes chamado REN vai ser dividido em outros dois novos arquivos.",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando 'REN Ar.JPG Arquivo.JPG' renomeia o arquivo 'Ar.JPG' para 'Arquivo.JPG'."
+  },
+  {
+    "question": "Para que serve o comando “Format C: /s” no MS-DOS?",
+    "answers": [
+      { "option": "Formata o disco na unidade escolhida e grava o sistema operacional MS-DOS após a formatação.", "correct": true },
+      { "option": "Formata o disco na unidade escolhida com mais rapidez.", "correct": false },
+      { "option": "Formata o disco na unidade escolhida e instala o Windows automaticamente.", "correct": false },
+      { "option": "Formata apenas os diretórios do sistema, preservando os arquivos pessoais.", "correct": false }
+    ],
+    "reforço": "O parâmetro /s copia os arquivos do sistema após a formatação, tornando o disco inicializável."
+  }
+
+]
+

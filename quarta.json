@@ -1,0 +1,300 @@
+[
+  {
+    "question": "O MS-DOS é uma interface de linha de comando disponível no Sistema Operacional Windows. Essa interface permite que os usuários interajam com o sistema operacional digitando comando de texto em vez de usar uma interface gráfica do usuário (GUI). Um usuário utilizando o MS-DOS no Windows 10 Pro (Configuração Padrão – Idioma Português-Brasil) executa os seguintes comandos:<br> “cd c:\\”, em seguida “mkdir Arquivos” e, para finalizar, executa o comando “dir”.<br> Com base nas ações realizadas pelo usuário, o que foi realizado no sistema?",
+    "answers": [
+      {
+        "option": "O usuário criou o diretório C:\\; em seguida, criou uma pasta chamada “Arquivos”; e, listou todo o conteúdo de C:\\ para verificar se a pasta foi criada",
+        "correct": false
+      },
+
+      {
+        "option": "O usuário mudou o diretório inicial para C:\\; em seguida, criou uma pasta chamada “Arquivos”; e, listou todo o conteúdo de C:\\ para verificar se a pasta foi criada.",
+        "correct": true
+      },
+
+      {
+        "option": "O usuário limpou o conteúdo contido em C:\\; em seguida, criou uma pasta chamada “Arquivos”; e, listou todo o conteúdo de C:\\ para verificar se a pasta foi criada.",
+        "correct": false
+      },
+
+      {
+        "option": "O usuário mudou o diretório inicial para C:\\; em seguida, deletou uma pasta chamada “Arquivos”; e, listou todo o conteúdo de C:\\ para verificar se a pasta foi deletada.",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando 'cd c:\\' muda o diretório atual para o diretório raiz do drive C:. <br> O comando 'mkdir Arquivos' cria uma nova pasta chamada 'Arquivos' no diretório atual.<br> O comando 'dir' lista o conteúdo do diretório atual, mostrando a nova pasta 'Arquivos' que foi criada."
+  },
+  {
+    "question": "O MS-DOS (Microsoft Disk Operating System) foi um sistema operacional de linha de comando utilizado pela Microsoft antes do surgimento do Windows; seus principais comandos são: “DIR”; “CD”; “MD”; e, “RD”. Considerando os comandos especificados, qual é a função de cada um deles, respectivamente?",
+    "answers": [
+      {
+        "option": "Exibe uma lista de arquivos e diretórios no diretório atual; muda o diretório atual para o especificado; cria um novo diretório; e, remove um diretório.",
+        "correct": true
+      },
+      {
+        "option": "Remove um diretório; exibe uma lista de arquivos e diretórios no diretório atual; cria um novo diretório; e, muda o diretório atual para o especificado.",
+        "correct": false
+      },
+      {
+        "option": "Remove um diretório; cria um novo diretório; muda o diretório atual para o especificado; e, exibe uma lista de arquivos e diretórios no diretório atual.",
+        "correct": false
+      },
+      {
+        "option": "Cria um novo diretório; remove um diretório; muda o diretório atual para o especificado; e, exibe uma lista de arquivos e diretórios no diretório atual.",
+        "correct": false
+      }
+    ],
+    "reforço": "DIR exibe arquivos e pastas; CD muda o diretório; MD cria um diretório; RD remove um diretório."
+  },
+  {
+    "question": "No contexto do MS-DOS, certo usuário precisava examinar o conteúdo da unidade “C:”. Para isso, ele mudou para o diretório “C:\\” e exibiu uma lista de arquivos e pastas presentes. Durante a inspeção, identificou duas pastas chamadas “Excel” e “Word”. Em seguida, decidiu entrar na pasta “Excel” para verificar se havia arquivos. Ao listar o conteúdo dessa pasta, constatou que estava vazia e optou por excluí-la. Posteriormente, retornou ao diretório anterior e utilizou o comando apropriado para deletar a pasta “Excel” identificada na unidade “C:”. Com base nas ações do usuário utilizando o MS-DOS, quais comandos foram utilizados?",
+    "answers": [
+      {
+        "option": "CD C:\\; CD ..; DIR; CD Excel; e, RMDIR Excel.",
+        "correct": false
+      },
+      {
+        "option": "CD C:\\; RMDIR Excel; CD Excel; DIR; CD ..; e, DIR.",
+        "correct": false
+      },
+      {
+        "option": "CD C:\\; DIR; CD Excel; DIR; CD ..; e, RMDIR Excel.",
+        "correct": true
+      },
+      {
+        "option": "CLS, REN; RMDIR Excel; CD..; DIR; e, MKDIR Excel.",
+        "correct": false
+      }
+    ],
+    "reforço": "O usuário acessou o diretório C:\\, listou seu conteúdo, entrou na pasta Excel, verificou que estava vazia, voltou ao diretório anterior e removeu a pasta Excel usando o comando RMDIR."
+  },
+  {
+    "question": "O MS-DOS é um sistema operacional de linha de comando da Microsoft que foi amplamente utilizado em computadores pessoais mais antigos. Ele oferece uma variedade de comandos para gerenciar arquivos e diretórios; são eles – “DIR”, “CD”, “MD”, “DR”, “DEL”, dentre outros. Qual é a função do comando “DIR” no MS-DOS?",
+    "answers": [
+      { "option": "Criar um novo diretório.", "correct": false },
+      { "option": "Permitir a mudança de diretório.", "correct": false },
+      { "option": "Renomear um arquivo ou um diretório.", "correct": false },
+      {
+        "option": "Exibir uma lista de arquivos e diretórios no diretório atual.",
+        "correct": true
+      }
+    ],
+    "reforço": "O comando 'DIR' no MS-DOS é utilizado para exibir uma lista de arquivos e diretórios presentes no diretório atual."
+  },
+  {
+    "question": "Certo usuário inicia o MS-DOS em C:\\, lista o conteúdo da pasta, navega para o diretório “Programas”, e, em seguida lista o conteúdo desse diretório. Ele visualiza algumas pastas: Utilitários, Jogos e Aplicativos. Depois entra no subdiretório “Utilitários”, lista todo o conteúdo e identifica as seguintes pastas: “Compactadores” e “Antivírus”; então ele navega para o diretório “Antivírus”, lista novamente o diretório e identifica a pasta “Norton”, ele entra na pasta “Norton” e executa o comando norton.exe para iniciar o programa. Com base nas ações realizadas pelo usuário, qual sequência de comandos foram utilizados?",
+    "answers": [
+      {
+        "option": "dir > cd programas > dir > cd utilitarios > dir > cd antivirus > dir > cd norton > norton.exe",
+        "correct": true
+      },
+      {
+        "option": "dir > cd programas > ren > cd utilitarios > dir > cd antivirus > dir > cd norton > norton.exe",
+        "correct": false
+      },
+      {
+        "option": "dir > rmdir programas > dir > cd utilitarios > dir > cd antivirus > dir> cd norton > norton.exe",
+        "correct": false
+      },
+      {
+        "option": "dir > mkdir programas > dir > cd utilitarios > dir > cd antivirus > dir > cd norton > norton.exe",
+        "correct": false
+      }
+    ],
+    "reforço": "O usuário utilizou os comandos 'dir' para listar o conteúdo dos diretórios, 'cd' para navegar entre eles e, por fim, executou 'norton.exe' para iniciar o programa."
+  },
+  {
+    "question": "Ao iniciar o MS-DOS, determinado usuário observa que o sistema é iniciado na unidade A:\\. Então muda para a unidade C:\\ e lista todo o conteúdo dessa unidade. Ele vê uma pasta chamada Trabalho e entra nesse diretório. Desejando fazer um backup do conteúdo da pasta Trabalho, o usuário cria uma nova pasta, dentro dela, chamada Backup. Em seguida, copia todo o conteúdo da pasta Trabalho para a pasta Backup. Com base nas ações do usuário, assinale, a seguir, a sequência de comandos realizada.",
+    "answers": [
+      {
+        "option": "cd C:\\, dir, cd Trabalho, dir Backup, copy *.* Backup",
+        "correct": false
+      },
+      {
+        "option": "cd C:\\, dir, cd Trabalho, move Backup, copy *.* Backup",
+        "correct": false
+      },
+      {
+        "option": "cd C:\\, dir, cd Trabalho, mkdir Backup, copy *.* Backup",
+        "correct": true
+      },
+      {
+        "option": "cd C:\\, dir, cd Trabalho, create Backup, copy *.* Backup",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando 'mkdir Backup' cria a pasta Backup e 'copy *.* Backup' copia todos os arquivos da pasta Trabalho para a pasta Backup."
+  },
+  {
+    "question": "No ambiente MS-DOS, existem comandos que são funcionalmente equivalentes, ou seja, possuem a mesma finalidade, mas apresentam variações na sintaxe. Essas variações são conhecidas como alias, ou apelidos, que servem para reduzir o comprimento dos comandos, tornando-os mais rápidos e fáceis de digitar. Qual comando pode ser utilizado no lugar do comando MKDIR para criar diretórios?",
+    "answers": [
+      { "option": "CD.", "correct": false },
+      { "option": "RD.", "correct": false },
+      { "option": "MD.", "correct": true },
+      { "option": "REN.", "correct": false }
+    ],
+    "reforço": "O comando 'MD' é um alias para 'MKDIR' no MS-DOS, ambos servem para criar diretórios."
+  },
+  {
+    "question": "No MS-DOS, o comando 'CD' é utilizado para mudar o diretório atual. Suponha que um usuário esteja no diretório 'C:\\Documentos' e queira navegar para o diretório 'C:\\Documentos\\Projetos\\2024'. Qual comando ele deve usar?",
+    "answers": [
+      { "option": "CD ..\\Projetos\\2024", "correct": false },
+      { "option": "CD Projetos\\2024", "correct": true },
+      { "option": "CD C:\\Documentos\\Projetos\\2024", "correct": false },
+      { "option": "CD /Projetos/2024", "correct": false }
+    ],
+    "reforço": "O comando correto é 'CD Projetos\\2024', pois ele navega diretamente para o subdiretório a partir do diretório atual."
+  },
+  {
+    "question": "O MS-DOS (MicroSoft Disk Operating System) é um sistema operacional que teve o seu surgimento no ano de 1981, e que atualmente ainda é usado. O comando empregado neste sistema operacional para apagar todas as informações mostradas na tela, ou seja, limpá-la é:",
+    "answers": [
+      { "option": "CLS.", "correct": true },
+      { "option": "DIR.", "correct": false },
+      { "option": "TREE.", "correct": false },
+      { "option": "MKDIR.", "correct": false }
+    ],
+    "reforço": "O comando 'CLS' limpa toda a tela do prompt de comando no MS-DOS."
+  },
+  {
+    "question": "O Sistema Operacional MS-DOS, responsável pela comunicação entre o usuário e o computador. Ele possui um mecanismo para receber os comandos do usuário (prompt de comando). Caso o usuário do MS-DOS queira criar um novo diretório, via prompt, ele deverá fazer uso do seguinte comando:",
+    "answers": [
+      { "option": "CD.", "correct": false },
+      { "option": "RD.", "correct": false },
+      { "option": "MD.", "correct": true },
+      { "option": "DOSKEY.", "correct": false }
+    ],
+    "reforço": "O comando 'MD' (Make Directory) é utilizado para criar novos diretórios no MS-DOS."
+  },
+  {
+    "question": "O MS-DOS possui duas maneiras de receber comandos do usuário. Pode ser por meio do sinal de prompt, ou linha de comando, no qual o usuário digita os comandos do DOS ou nome do programa a ser executado. O comando, no sistema operacional MS-DOS, que tem como função mostrar o conteúdo de um arquivo é:",
+    "answers": [
+      { "option": "DIR.", "correct": false },
+      { "option": "REN.", "correct": false },
+      { "option": "TYPE.", "correct": true },
+      { "option": "COPY.", "correct": false }
+    ],
+    "reforço": "O comando 'TYPE' exibe o conteúdo de um arquivo de texto diretamente no prompt do MS-DOS."
+  },
+  {
+    "question": "No MS-DOS, o comando que mostra a lista de arquivos de um diretório, pausando quando a quantidade de arquivos não pode ser exibida de uma só vez na tela, é:",
+    "answers": [
+      { "option": "dir /p", "correct": true },
+      { "option": "dir /q", "correct": false },
+      { "option": "dir /w", "correct": false },
+      { "option": "dir /d", "correct": false },
+      { "option": "dir /a", "correct": false }
+    ],
+    "reforço": "O parâmetro '/p' faz com que o comando 'dir' pause a exibição a cada página, facilitando a visualização de muitos arquivos."
+  },
+  {
+    "question": "O Sistema Operacional MS-DOS é responsável pela comunicação entre o usuário e o computador, permitindo a execução de diversos comandos. Em relação às características do MS-DOS, assinale a afirmativa correta.",
+    "answers": [
+      { "option": "Foi desenvolvido pela Apple Inc.", "correct": false },
+      {
+        "option": "Utiliza uma estrutura de arquivos hierárquica.",
+        "correct": true
+      },
+      {
+        "option": "Oferece uma interface gráfica muito intuitiva.",
+        "correct": false
+      },
+      {
+        "option": "Trata-se de um Sistema Operacional de código aberto.",
+        "correct": false
+      }
+    ],
+    "reforço": "O MS-DOS utiliza uma estrutura de arquivos hierárquica, permitindo organização em diretórios e subdiretórios."
+  },
+  {
+    "question": "Sobre os comandos do MS-DOS, analise as afirmativas a seguir.<br><br>I. MKDIR ou MD: cria um novo diretório (pasta) no sistema de arquivos do MS-DOS.<br><br>II. DIR: exibe uma estrutura em árvore de diretórios e subdiretórios.<br><br>III. MODIFY: renomeia arquivos ou diretórios.<br><br>IV. RD: remove apenas um diretório vazio e não pode ser empregado para excluir diretórios com conteúdo.<br><br>Está correto o que se afirma apenas em",
+    "answers": [
+      { "option": "I e II.", "correct": false },
+      { "option": "I e IV.", "correct": true },
+      { "option": "II e III.", "correct": false },
+      { "option": "III e IV.", "correct": false },
+      { "option": "I, II e III.", "correct": false }
+    ],
+    "reforço": "Apenas as afirmativas I e IV estão corretas: MKDIR/MD cria diretórios e RD remove apenas diretórios vazios. DIR não exibe estrutura em árvore e MODIFY não é comando do MS-DOS."
+  },
+  {
+    "question": "Qual o comando utilizado no Prompt de Comando, do Windows 10, que permite mostrar detalhes do parâmetro da interface de rede?",
+    "answers": [
+      { "option": "PUSHD", "correct": false },
+      { "option": "POPD", "correct": false },
+      { "option": "RECOVER", "correct": false },
+      { "option": "PROMPT", "correct": false },
+      { "option": "ROUT", "correct": false }
+    ],
+    "reforço": "O comando correto para mostrar detalhes da interface de rede no Windows é 'ipconfig', porém nenhuma das alternativas apresentadas corresponde ao comando correto."
+  },
+  {
+    "question": "O MS-DOS é um sistema operacional conhecido mundialmente. Sobre o MS-DOS, assinale a alternativa correta:",
+    "answers": [
+      {
+        "option": "O comando “Deltree” serve para excluir uma pasta com todos os arquivos e subpastas dentro da pasta especificada. A opção /y faz com que a operação seja executada sem o pedido de confirmação.",
+        "correct": true
+      },
+      {
+        "option": "O MS-DOS deixou de ser necessário a partir do surgimento do Windows 3.1.",
+        "correct": false
+      },
+      {
+        "option": "O comando “format a: /u /s” serve para formatar um disquete. A opção /u é para formatação rápida e a opção /s é para copiar os arquivos do sistema operacional para o disquete.",
+        "correct": false
+      },
+      {
+        "option": "A linha de comando “Attrib /r /h /s data.txt” serve para alterar os atributos do arquivo data.txt. As opções /r /h e /s definem os atributos do arquivo como somente de leitura, oculto e de sistema, respectivamente.",
+        "correct": false
+      },
+      {
+        "option": "Os comandos CHKDSK, MEM e DOSKEY, servem respectivamente para: verificar um disco, exibir a quantidade de memória do sistema e por último, configurar o teclado.",
+        "correct": false
+      }
+    ],
+    "reforço": "A alternativa A descreve corretamente o uso do comando Deltree com a opção /y. As demais têm erros conceituais."
+  },
+  {
+    "question": "No sistema operacional MS-DOS, para retornar ao diretório raiz, utiliza-se o comando:",
+    "answers": [
+      { "option": "MD", "correct": false },
+      { "option": "CD\\", "correct": true },
+      { "option": "EXIT", "correct": false },
+      { "option": "EDIT", "correct": false },
+      { "option": "DIR/P", "correct": false }
+    ],
+    "reforço": "O comando 'CD\\' retorna diretamente ao diretório raiz do drive atual."
+  },
+  {
+    "question": "No MS-DOS, para que o conteúdo do arquivo exemplo.txt armazenado no disco A seja exibido na tela do computador, deve-se digitar o seguinte comando seguido da tecla Enter:",
+    "answers": [
+      { "option": "dir exemplo", "correct": false },
+      { "option": "cat a exemplo.txt", "correct": false },
+      { "option": "list exemplo.txt /a", "correct": false },
+      { "option": "type a:exemplo", "correct": false },
+      { "option": "type a:exemplo.txt", "correct": true }
+    ],
+    "reforço": "O comando 'type a:exemplo.txt' exibe o conteúdo do arquivo texto localizado no drive A."
+  },
+  {
+    "question": "No MS-DOS, o comando destinado a renomear arquivos, o comando utilizado para criar diretórios, e o comando destinado a remover um diretório são:",
+    "answers": [
+      { "option": "nom; cd; rmv", "correct": false },
+      { "option": "nom; cr; rem", "correct": false },
+      { "option": "rarq; md; rd", "correct": false },
+      { "option": "ren; cd; rem", "correct": false },
+      { "option": "ren; md; rd", "correct": true }
+    ],
+    "reforço": "Os comandos corretos são: ren (renomear), md (criar diretório), rd (remover diretório)."
+  },
+   {
+    "question": "Sobre os comandos do MS-DOS, analise as afirmativas a seguir.<br><br>I. MKDIR ou MD: cria um novo diretório (pasta) no sistema de arquivos do MS-DOS.<br><br>II. DIR: exibe uma estrutura em árvore de diretórios e subdiretórios.<br><br>III. MODIFY: renomeia arquivos ou diretórios.<br><br>IV. RD: remove apenas um diretório vazio e não pode ser empregado para excluir diretórios com conteúdo.<br><br>Está correto o que se afirma apenas em",
+    "answers": [
+      { "option": "I e II.", "correct": false },
+      { "option": "I e IV.", "correct": true },
+      { "option": "II e III.", "correct": false },
+      { "option": "III e IV.", "correct": false },
+      { "option": "I, II e III.", "correct": false }
+    ],
+    "reforço": "Apenas as afirmativas I e IV estão corretas: MKDIR/MD cria diretórios e RD remove apenas diretórios vazios. DIR não exibe estrutura em árvore e MODIFY não é comando do MS-DOS."
+  }
+]

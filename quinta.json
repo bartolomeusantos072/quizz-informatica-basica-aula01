@@ -1,0 +1,155 @@
+[
+{
+    "question": "Comando do Sistema Operacional da Microsoft, MS-DOS, que exibe a lista de arquivos e subdiretórios de um diretório. Trata-se de:",
+    "answers": [
+        { "option": "FC", "correct": false },
+        { "option": "CD", "correct": false },
+        { "option": "CLS", "correct": false },
+        { "option": "DIR", "correct": true }
+    ],
+    "reforço": "O comando 'DIR' no MS-DOS exibe a lista de arquivos e subdiretórios do diretório atual."
+},
+{
+    "question": "Qual comando, do MS-DOS, é uma ferramenta que fornece informações sobre os drivers de hardware instalados no computador?",
+    "answers": [
+        { "option": "drivequest.", "correct": false },
+        { "option": "driveinfo.", "correct": false },
+        { "option": "drivequery.", "correct": true },
+        { "option": "driveview.", "correct": false },
+        { "option": "driveload.", "correct": false }
+    ],
+    "reforço": "O comando 'drivequery' é utilizado para exibir informações sobre os drivers de hardware instalados no computador."
+},
+{
+    "question": "Comando utilizado no MSDOS que procura uma cadeia de caracteres numa lista de arquivos. Trata-se do comando:",
+    "answers": [
+        { "option": "FIND", "correct": true },
+        { "option": "ECHO", "correct": false },
+        { "option": "MORE", "correct": false },
+        { "option": "LABEL", "correct": false }
+    ],
+    "reforço": "O comando 'FIND' no MS-DOS é utilizado para procurar uma cadeia de caracteres em arquivos."
+},
+{
+    "question": "Na linha de comando do Sistema Operacional MS-DOS, o comando ATTRIB, além de ser usado para mostrar os atributos dos arquivos e diretórios (somente leitura, arquivo do sistema, arquivo morto e oculto), permite alterá-los. Sua sintaxe é: [ATTRIB <opções> <unidade> <caminho> <arquivo>]. Assinale a opção de atributo de arquivo oculto.",
+    "answers": [
+        { "option": "A", "correct": false },
+        { "option": "H", "correct": true },
+        { "option": "R", "correct": false },
+        { "option": "S", "correct": false }
+    ],
+    "reforço": "No MS-DOS, o atributo 'H' indica que o arquivo é oculto (Hidden)."
+},
+{
+    "question": "Na linha de comando do Sistema Operacional MS-DOS, o comando _____ é usado para listar arquivos e diretórios. Assinale a alternativa que completa corretamente a afirmativa anterior.",
+    "answers": [
+        { "option": "Dir", "correct": true },
+        { "option": "Ver", "correct": false },
+        { "option": "Tree", "correct": false },
+        { "option": "Mode", "correct": false }
+    ],
+    "reforço": "O comando 'Dir' no MS-DOS é utilizado para listar arquivos e diretórios do diretório atual."
+},
+{
+    "question": "O [dir] é um comando usado no MS-DOS para listar o conteúdo de diretórios/pastas. O seu uso puro e simples lista, de maneira geral, os conteúdos de um determinado diretório/pasta. Entretanto, há um parâmetro que faz com que a visualização seja feita na horizontal (ou formato de lista amplo).<br><br>Trata-se do parâmetro:",
+    "answers": [
+        { "option": "/p", "correct": false },
+        { "option": "/s", "correct": false },
+        { "option": "/w", "correct": true },
+        { "option": "/x", "correct": false }
+    ],
+    "reforço": "O parâmetro '/w' do comando 'dir' exibe os arquivos em formato de lista ampla (horizontal) no MS-DOS."
+},
+{
+    "question": "Considerando o seguinte comando utilizado no console de comandos do MS-DOS, marque a alternativa que indica o seu resultado.<br><br>C:\\> DIR /?",
+    "answers": [
+        { "option": "Listar todos os diretórios que não se iniciam com o caractere?", "correct": false },
+        { "option": "Listar todos os diretórios que se iniciam com o caractere?", "correct": false },
+        { "option": "Retornar uma página de ajuda do comando DIR.", "correct": true },
+        { "option": "Criar um diretório chamado?", "correct": false }
+    ],
+    "reforço": "O comando 'DIR /?' exibe a página de ajuda do comando DIR, mostrando suas opções e parâmetros disponíveis."
+},
+{
+    "question": "Após configurar as opções essenciais do Setup, o micro deverá ser capaz de inicializar normalmente e de dar o boot através de um disquete. Como o disco rígido ainda não possui nenhum sistema operacional, é necessário um disquete de boot para inicializar a máquina ou inicializar o micro através do CD de instalação do Windows – se o micro permitir o boot através do CD-ROM.<br><br>Após o boot, ao tentar acessar a unidade C, será apresentada uma mensagem de erro, como se não houvesse disco rígido nenhum instalado na máquina, pois o disco ainda precisa ser formatado para ser reconhecido e utilizado pelo sistema operacional. Existem vários programas que realizam esta tarefa. Convém utilizar o Fdisk que faz parte do disco de boot do Windows. Basta carregá-lo com o comando ____________.<br><br>O comando que completa corretamente a lacuna do texto é:",
+    "answers": [
+        { "option": "C:\\FDISK", "correct": false },
+        { "option": "G:\\FDISK", "correct": false },
+        { "option": ":\\FDISK", "correct": false },
+        { "option": "A:\\FDISK", "correct": true }
+    ],
+    "reforço": "O comando 'A:\\FDISK' executa o programa FDISK a partir do disquete de boot, permitindo a criação e gerenciamento de partições no disco rígido."
+},
+{
+    "question": "Sendo necessário executar o Format para formatar logicamente o disco rígido antes de poder utilizá-lo. A sintaxe do comando Format é \"Format\" seguido de um espaço e da letra da unidade a ser formatada. Para formatar a unidade C:, por exemplo, basta usar o comando \"_________\"<br><br>Qual o comando correto de acordo com o texto?",
+    "answers": [
+        { "option": "Format A:", "correct": false },
+        { "option": "Format G:", "correct": false },
+        { "option": "Format C", "correct": false },
+        { "option": "Format C:", "correct": true }
+    ],
+    "reforço": "O comando correto para formatar a unidade C: é 'Format C:'."
+},
+{
+    "question": "Para realizar o scandisk pelo prompt de comando, clica-se com o botão direito no logotipo do Windows e seleciona-se a opção Prompt de Comando (administrador). Digita-se o comando CHKDSK C: e pressiona-se a tecla Enter. Se, além de examinar o disco, o usuário quiser corrigir erros, este executa qual comando?",
+    "answers": [
+        { "option": "CHKDSK C: F", "correct": false },
+        { "option": "CHKDSK C: /F", "correct": true },
+        { "option": "CHKDSK : F", "correct": false },
+        { "option": "CHKDSK C:", "correct": false }
+    ],
+    "reforço": "O parâmetro '/F' no comando 'CHKDSK' faz com que o utilitário corrija erros encontrados no disco."
+},
+{
+    "question": "No MS – DOS, os caracteres Globais, também chamados caracteres curingas, são utilizados quando necessitamos nos referir a vários arquivos ao mesmo tempo. Existem dois caracteres globais:",
+    "answers": [
+        { "option": "A vírgula e a interrogação.", "correct": false },
+        { "option": "A interrogação e o ponto.", "correct": false },
+        { "option": "O asterisco e a interrogação.", "correct": true },
+        { "option": "O ponto e o asterisco.", "correct": false }
+    ],
+    "reforço": "No MS-DOS, os caracteres globais são o asterisco (*) e a interrogação (?), usados para representar múltiplos arquivos ou padrões de nomes."
+},
+{
+    "question": "Considerando o sistema Microsoft Windows 7, qual comando realiza a atribuição de pasta oculta, para a pasta já criada com o nome de oculto localizada em C: ?",
+    "answers": [
+        { "option": "chdir C:\\oculto", "correct": false },
+        { "option": "hide -H C:\\oculto", "correct": false },
+        { "option": "attrib +H C:\\oculto", "correct": true },
+        { "option": "Mkdir +H C:\\oculto", "correct": false },
+        { "option": "Nenhuma das alternativas.", "correct": false }
+    ],
+    "reforço": "O comando 'attrib +H C:\\oculto' atribui o atributo de pasta oculta à pasta 'oculto' localizada em C: no Windows."
+},
+{
+    "question": "Um arquivo em lote, elaborado para o sistema operacional MS-DOS, pode utilizar diversos comandos. O comando que faz com que o prompt fique oculto durante a execução de um arquivo em lote é o",
+    "answers": [
+        { "option": "@ECHO.", "correct": true },
+        { "option": "PAUSE.", "correct": false },
+        { "option": "PROMPT OFF.", "correct": false },
+        { "option": "REM.", "correct": false },
+        { "option": "SET OFF.", "correct": false }
+    ],
+    "reforço": "O comando '@ECHO.' ou '@ECHO OFF' faz com que os comandos do arquivo em lote não sejam exibidos durante a execução, ocultando o prompt."
+},
+{
+    "question": "Suzana liga para o Suporte Técnico da empresa em que trabalha e informa que não está conseguindo conectar-se aos arquivos de rede, e-mail, internet e demais serviços. O técnico se apresenta para verificar se a estação de trabalho está conectada e, após procedimentos realizados para correção, finaliza digitando um comando no Prompt de Comando (cmd) para verificar se a máquina voltou a conectar-se ao servidor de rede e ao domínio, exibindo as informações de endereço físico e demais configurações de rede do computador. O comando digitado foi",
+    "answers": [
+        { "option": "ipconfig /flushdns", "correct": false },
+        { "option": "cliconfig", "correct": false },
+        { "option": "ping 255.255.0.0", "correct": false },
+        { "option": "ipconfig /all", "correct": true }
+    ],
+    "reforço": "O comando 'ipconfig /all' exibe todas as configurações de rede do computador, incluindo endereço físico (MAC), IP, DNS e outras informações importantes."
+},
+{
+    "question": "O comando format do MS-DOS (MicroSoft Disk Operating System) é um comando utilizado para formatação de dispositivos, seja um HD, Pen-drive, cartão de memória etc. Ainda hoje é possível utilizar esse comando, via prompt de comando dos Sistemas Windows. Assim como diversos outros comandos, o format também pode ser usado com algumas opções. Uma dessas opções é o “/U”. Assinale a alternativa que apresenta a descrição dessa opção.",
+    "answers": [
+        { "option": "Executa uma formatação rápida.", "correct": false },
+        { "option": "Formata rapidamente o disco da unidade.", "correct": false },
+        { "option": "Formata o disco independente da condição.", "correct": true },
+        { "option": "Formata o dispositivo, mas força uma desmontagem primeiro, se necessário.", "correct": false }
+    ],
+    "reforço": "A opção '/U' do comando 'format' realiza uma formatação incondicional, ou seja, formata o disco independente da condição anterior."
+}
+]
