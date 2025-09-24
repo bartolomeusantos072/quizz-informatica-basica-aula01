@@ -7,33 +7,44 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* evita scroll geral */
+}
+
 body {
-  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  gap: 5px;
   background: linear-gradient(90deg, rgba(91,30,159,1) 0%, rgba(77,39,182,1) 100%);
 }
 
-body h2 {
+/* Cabeçalho fixo */
+header {
+  padding: 16px 10px;
   color: white;
+  text-align: center;
+  flex-shrink: 0;
 }
 
+/* Main ocupa o resto da tela e rola se necessário */
 main {
+  flex: 1;
+  overflow-y: auto;
   background-color: white;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
   width: 100%;
-  max-width: 80%;
-  height: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 10px;
 }
 
+/* Conteúdo dentro da main */
 .content {
   display: flex;
   flex-direction: column;
@@ -67,16 +78,16 @@ main {
 }
 
 .answer.correct {
-  background: #c8f7c5; /* fundo verde claro */
-  border-color: #27ae60; /* contorno verde */
+  background: #c8f7c5;
+  border-color: #27ae60;
 }
 
 .answer.wrong {
-  border-color: #e74c3c; /* contorno vermelho */
+  border-color: #e74c3c;
 }
 
 .answer.selected {
-  border-width: 3px; /* destaque extra */
+  border-width: 3px;
 }
 
 .answer:disabled {
@@ -93,6 +104,7 @@ main {
 .finish button {
   text-align: center;
 }
+
 .feedback {
   text-align: center;
   font-weight: bold;
@@ -103,12 +115,13 @@ main {
 }
 
 .feedback.correct {
-  color: #27ae60; /* verde */
+  color: #27ae60;
 }
 
 .feedback.wrong {
-  color: #e74c3c; /* vermelho */
+  color: #e74c3c;
 }
+
 .reforco {
   font-size: 16px;
   margin-top: 8px;
